@@ -1,7 +1,12 @@
 import React from "react";
+import Rightcard from "./Rightcard";
 
 const Rightcontent = () => {
-  return <div className="h-full w-3/4 bg-blue-300"></div>;
+  return (
+    <div className="h-full w-2/3 ">
+      <Rightcard></Rightcard>
+    </div>
+  );
 };
 
 export default Rightcontent;
