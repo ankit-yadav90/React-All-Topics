@@ -1,4 +1,5 @@
 import React from "react";
+import Scroling from "./component/Scroling";
 
 const App = () => {
   // function btn(val) {
@@ -12,6 +13,7 @@ const App = () => {
         }}
         type="text"
       />
+      <Scroling></Scroling>
     </div>
   );
 };
