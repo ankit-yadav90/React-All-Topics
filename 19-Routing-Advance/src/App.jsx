@@ -9,7 +9,7 @@ import Product from "./pages/Product";
 import { Route, Routes } from "react-router-dom";
 import Notfound from "./pages/Notfound";
 import Course from "./pages/Course";
-import Coursedatil from "./pages/Course";
+import Coursedatil from "./pages/Coursedatil";
 
 const App = () => {
   return (
@@ -19,7 +19,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/course" element={<Course />} />
-        <Route path="/course/:id" element={<Coursedatil />} />
+        <Route path="/course/:courseid" element={<Coursedatil />} />
         <Route path="/product" element={<Product />}>
           <Route path="men" element={<Men />} />
           <Route path="women" element={<Women />} />
