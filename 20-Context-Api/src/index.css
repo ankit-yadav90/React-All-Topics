@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.nav{
+  display: flex;
+  background-color: rgb(9, 170, 224);
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+}
+
+.nav2{
+  display: flex;
+  gap: 30px;
+}
