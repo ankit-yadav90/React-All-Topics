@@ -1,4 +1,5 @@
 import React, { createContext } from "react";
+import App from "../App";
 
 export const ThemeDataContext = createContext();
 
@@ -6,7 +7,7 @@ const Themecontext = (props) => {
   return (
     <div>
       <ThemeDataContext.Provider value="Ankit">
-        {props.children}
+        <App />
       </ThemeDataContext.Provider>
     </div>
   );

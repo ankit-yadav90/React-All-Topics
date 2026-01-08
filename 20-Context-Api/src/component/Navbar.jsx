@@ -8,7 +8,7 @@ const Navbar = (props) => {
 
   return (
     <div className="nav">
-      <h1>Shyrinshe</h1>
+      <h1>Shyrinshe {data}</h1>
       <Navbar2 theme={props.theme}>
         <h1>sidebar</h1>
         <h1>footer</h1>
